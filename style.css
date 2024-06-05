@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: monospace;
+}
+
+body {
+    background-color: #eaeaea;
+}
+
+nav {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: xx-large;
+    margin: 0 30rem 0 10rem;
+    color: red;
+    font-weight: 900;
+}
+
+.links ul {
+    display: flex;
+    align-items: center;
+    gap: 20rem;
+    font-size: large;
+}
+
+.links ul li {
+    color: #ffff;
+}
+
+.links ul li:hover {
+    font-size: 30px;
+}
+
+main {
+    padding: 0 30rem 0 30rem;
+}
+
+img {
+    width: 30rem;
+    margin: 2rem 0 0  0 ;
+}
+
+h1 {
+    font-size: x-large;
+    color: red;
+}
+
+h3 {
+    font-size: larger;
+    font-weight: 600;
+}
+
+p {
+    font-size: larger;
+    font-weight: 500;
+}
